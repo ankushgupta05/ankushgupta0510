@@ -2,7 +2,7 @@
 
 import { useNavigate } from 'react-router-dom';
 import { getToken } from '../services/LocalStorageService';
-import { useGetUserContactMessagesQuery } from '../services/UserAuthApi';
+import { useGetUserContactMessagesQuery } from '../services/userAuthApi';
 
 const MyMessages = () => {
   const navigate = useNavigate();
