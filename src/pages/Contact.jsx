@@ -126,7 +126,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { getToken } from "../services/LocalStorageService";
-import { useSendContactMessageMutation } from "../services/UserAuthApi";
+import { useSendContactMessageMutation } from "../services/userAuthApi";
 import contact from "../assets/contect5.gif";
 
 const Contact = () => {
